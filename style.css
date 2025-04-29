@@ -426,21 +426,10 @@
     height: auto;
     border-radius: 12px;
     object-fit: cover;
-    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), 
-                filter 0.3s ease-in-out;
-    transform-origin: center center; /* Zoom from center */
+   
+   
 }
 
-/* Zoom on hover */
-.promo-image:hover img {
-    transform: scale(1.2); /* Slightly smoother zoom */
-    filter: brightness(0.9); /* Slight darkening for depth */
-}
-
-/* Optional: add soft shadow during zoom */
-.promo-image:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
 
 
 
